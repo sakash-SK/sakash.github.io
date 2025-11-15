@@ -1,8 +1,74 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with Github Pages.</p>
-</body>
+<!-- This page is adapted from w3schools "How to make a link tree website https://www.w3schools.com/howto/howto_website_create_linktree.asp" -->
+<html lang="en">
 
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Add your name below -->
+  <title>Sakash Khanna</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="main-text-color">
+  <!-- Content container. Everything except footer goes here -->
+  <div class="container">
+    <!-- Image and name container. Put your replacement photo—which you should crop to be square—in the images folder, then change the source attribute to images/yourportraitfilename.jpg. This path says, "Look in the images folder for yourportraitfilename.jpg." Be sure to change the alt text, too. -->
+    <div class="image-container">
+      <img src="images/profile.jpg" alt="Photo by Visual_Intermezzo">
+    </div>
+    <div class="intro">
+      I'm <span class="name"><strong>Sakash Khanna</strong></span>, a comuputer science student and a binge watcher. You guys seen Game of Thrones?
+    </div>
+    <div class="section-header">
+      <h1>My work</h1>
+    </div>
+    <!-- Replace the # inside of the href="#" with your links. -->
+    <div class="links-container">
+      <div class="button toggle">Blog post</div>
+      <div class="slidedown">
+        <div class="description">
+          <h2>Game and Human Development</h2>
+          <p>My blog post is about how we should transition to a digital cleanse as this new digital age has introduced some harmful aspects to our lives.</p>
+          <a href="https://medium.com/the-awl/i-may-not-harm-jeff-bezos-a4d322f17bd8" class="external-link" target="_blank">Read</a>
+        </div>
+      </div>
+
+      <div class="button toggle">Video</div>
+      <div class="slidedown">
+        <div class="description">
+          <h2>Video title</h2>
+          <p>Add a short but appealing description of your video.</p>
+          <a href="#" class="external-link" target="_blank">Watch</a>
+        </div>
+      </div>
+
+
+      <div class="button toggle">Podcast</div>
+      <div class="slidedown">
+        <div class="description">
+          <h2>What are our favorite movies in the 2000s?</h2>
+          <p>Join us to discuss our favorite movies of the 2000s! Anyone who is an avid movie watcher will find this a great listen</p>
+          <a href="https://soundcloud.com/emma-montgomery-465343601/geckos-eng-3844-podcast?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing&si=f352ab86adc94b53858ce045c45da9c6" class="external-link" target="_blank">Listen</a>
+        </div>
+      </div>
+
+
+    <!-- Replace # with PDF from Google Docs, or replace the entire section with whatever you want. Or delete it! Or add another section below it!-->
+    <div class="section-header">
+      <h1>About me</h1>
+    </div>
+
+    <div class="links-container">
+      <a href="https://www.linkedin.com/in/sakash-khanna-aa6b4b265?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BRqCFHeMsS3u5WkrvdfD7Ig%3D%3D" class="button" target="_blank">LinkedIn</a>
+    </div>
+
+  </div>
+  <div class="footer">
+    <p>© Sakash Khanna, 2025. Based on a design by <a
+        href="https://www.w3schools.com/howto/howto_website_create_linktree.asp" target="_blank">w3schools</a>.
+    </p>
+  </div>
+  <script type="text/javascript" src="js/slider.js"></script>
+</body>
 </html>
